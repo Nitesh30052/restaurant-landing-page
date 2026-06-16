@@ -1,16 +1,44 @@
-# React + Vite
+# Restaurant Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+A responsive restaurant landing page built using ReactJS based on the provided Figma design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+* Responsive design for Mobile, Tablet and Desktop
+* Featured Dishes fetched dynamically using API
+* Horizontal scrollable dishes section
+* Hero section
+* About section
+* Online Order section
+* Book Table section
+* Chef section
+* Testimonials section
+* Community section
+* Newsletter section
+* Footer section
+* Smooth scrolling navigation
+* Hover effects and transitions
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## API Used
 
-## Expanding the ESLint configuration
+https://nxtwave-assessments-backend-nxtwave-media-static.s3-ap-south-1.amazonaws.com/topin_beta/media/content_loading/uploads/5ba7588b-5c53-4aef-a473-b5eaf2e6dca4_food.json
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+* ReactJS
+* React Hooks (useState, useEffect)
+* CSS3
+* React Icons
+
+## Installation
+
+```bash
+npm install
+npm run dev
+```
+
+## Deployment
+
+Deployed using Vercel.
